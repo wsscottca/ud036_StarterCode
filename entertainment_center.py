@@ -22,5 +22,7 @@ coraline = media.Movie("Coraline",
                        "https://www.youtube.com/watch?v=LO3n67BQvh0")
 
 # Create list of movie objects to pass to open_movies_page
-movies = {fight_club, finding_nemo, american_psycho, nightmare_before_christmas, guardians_of_the_galaxy, coraline}
+movies = {fight_club, finding_nemo,
+          american_psycho, nightmare_before_christmas,
+          guardians_of_the_galaxy, coraline}
 fresh_tomatoes.open_movies_page(movies)
